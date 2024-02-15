@@ -24,7 +24,7 @@ const props = defineProps(['weatherData'])
 
 <style scoped>
 #card {
-    background-color: rgb(11, 97, 172);
+    background-color: rgb(195, 201, 217);
     border: 1px solid navy;
     min-height: 100px;
     margin: 2em 1em;

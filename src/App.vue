@@ -23,7 +23,7 @@ onMounted(() => {
 
 // Metod att byta den valda staden
 const switchLocation = (location) => {
-  router.push('/'+ location.name)  
+  router.push(location.name)  
 };
 
 </script>
@@ -56,7 +56,7 @@ p {
 
 button {
   background-color: #8888885a; 
-  color: #fff;
+  color: #000000;
   border: 2px solid #888;
   padding: 0.7em; 
   border-radius: 0.2em;
